@@ -1,0 +1,28 @@
+# 애보사(aibosa.kr) 수집 안내
+# 검색엔진(구글·네이버·다음·빙 등)은 화면을 수집할 수 있습니다. 자료 파일(/data/)은 수집하지 않습니다.
+# AI 학습용 수집과 AI 도구의 자동 수집은 허락하지 않습니다(이용약관 제7조: https://aibosa.kr/terms.html).
+
+User-agent: GPTBot
+User-agent: OAI-SearchBot
+User-agent: ChatGPT-User
+User-agent: ClaudeBot
+User-agent: Claude-User
+User-agent: Claude-SearchBot
+User-agent: anthropic-ai
+User-agent: CCBot
+User-agent: Google-Extended
+User-agent: Applebot-Extended
+User-agent: PerplexityBot
+User-agent: Perplexity-User
+User-agent: Bytespider
+User-agent: meta-externalagent
+User-agent: Amazonbot
+User-agent: cohere-ai
+User-agent: Diffbot
+User-agent: YouBot
+User-agent: Omgilibot
+User-agent: ImagesiftBot
+Disallow: /
+
+User-agent: *
+Disallow: /data/
